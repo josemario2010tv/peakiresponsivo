@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.11);
+        }
+
+        header{
+            width: 100vw;
+            height: 50vh;
+            background-image: url(img/gangue.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+
+        li {
+            color: black;
+           
+        }
+
+
+        li a:hover{
+            color: red;
+            box-shadow: 10px 10px 10px 10px;
+        }
+
+        li a{
+            text-decoration: none;
+        }
+
+        img{
+            max-width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+
+
+        .container{
+            list-style: none;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+           
+            }
+
+        .container2{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        footer{
+            background-color: rgba(0, 0, 0, 0.664);
+            color: rgb(250, 246, 246);
+            width: 100%;
+            height: 70px;
+            text-align: center;
+            padding-top: 25px;
+        }
+
+        @media (min-width: 600px){
+            .container2{
+                display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+       
+
+    </header>
+
+    <nav>
+        <ul class="container">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Galeria</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1>Peaky Blinders</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloribus quam ea. Quod porro ea alias corrupti cum quam dolorum perspiciatis consequuntur voluptates? Vero dolor ipsum aliquam necessitatibus autem exercitationem./h2>
+    </section>
+
+
+        <section>
+
+            <div class="container2">
+                <article>
+                    <img src="img/gangue.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas praesentium ipsa, optio adipisci reiciendis aperiam, repellendus eos ad iste error commodi, corporis quidem saepe ex? Modi suscipit nemo a laborum!</p>
+                </article>
+                <article>
+                    <img src="img/peaky_blinders_foto_reproducao__twitter.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quasi consectetur non in dicta. Reiciendis libero hic sit adipisci cum. Reiciendis nihil minus quae quas corrupti velit, dicta aliquam nobis.</p>
+                </article>
+                <article>
+                    <img src="img/EiPYo23WkAISIG1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quasi consectetur non in dicta. Reiciendis libero hic sit adipisci cum. Reiciendis nihil minus quae quas corrupti velit, dicta aliquam nobis.</p>
+                </article>
+                <article>
+                    <img src="img/peaky_blinders_foto_reproducao__twitter.jpg"">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quasi consectetur non in dicta. Reiciendis libero hic sit adipisci cum. Reiciendis nihil minus quae quas corrupti velit, dicta aliquam nobis.</p>
+                </article>
+            </div>
+        
+        </section>
+
+        <footer>
+            <p>Feito por @ZehMario</p>
+        </footer>
+    
+</body>
+</html>
